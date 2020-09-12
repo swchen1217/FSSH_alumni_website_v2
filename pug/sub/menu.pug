@@ -1,0 +1,47 @@
+//Menu
+nav.navbar.is-primary.is-fixed-top
+    .navbar-brand
+        a.navbar-item(href="")
+            h1.title.is-4.has-text-white     鳳山高中校友會
+        a.navbar-burger.burger(data-target="navbarMenu")
+            span
+            span
+            span
+    .navbar-menu#navbarMenu
+        .navbar-end
+            .navbar-item.has-dropdown.is-hoverable
+                a.navbar-link 關於我們
+                .navbar-dropdown
+                    a.navbar-item(href="#about") 簡介
+                    a.navbar-item(href="#chairman") 現任理事長
+                    a.navbar-item(href="#staff") 工作團隊
+            .navbar-item.has-dropdown.is-hoverable
+                a.navbar-link 歷屆理監事
+                .navbar-dropdown
+                    a.navbar-item(href="") 第三屆(現任)
+                    a.navbar-item(href="") 第二屆
+                    a.navbar-item(href="") 第一屆
+            .navbar-item.has-dropdown.is-hoverable
+                a.navbar-link 歷屆傑出校友
+                .navbar-dropdown
+                    - for(var i=1;i<=18;i++)
+                      a.navbar-item(href="")= "第"+i+"屆"
+            .navbar-item.has-dropdown.is-hoverable
+                a.navbar-link 歷屆大事紀
+                .navbar-dropdown
+                    a.navbar-item(href="") 第二屆
+                    a.navbar-item(href="") 第一屆
+            .navbar-item.has-dropdown.is-hoverable
+                a.navbar-link 活動花絮
+                .navbar-dropdown
+                    a.navbar-item(href="") 2019
+                    a.navbar-item(href="") 2018
+            a.navbar-link 影音專區
+            .navbar-item.has-dropdown.is-hoverable
+                a.navbar-link 文件下載
+                .navbar-dropdown
+                    a.navbar-item(href="") 校友會組織章程
+                    a.navbar-item(href="") 校友會入會申請書
+                    a.navbar-item(href="") 傑出校友選拔表揚辦法
+                    a.navbar-item(href="") 傑出校友推薦表
+//Menu

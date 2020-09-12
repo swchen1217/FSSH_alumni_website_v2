@@ -1,0 +1,48 @@
+doctype
+html(lang="zh-Hant-TW")
+    head
+        //General
+        include ../sub/general
+        //CSS
+        link(href="css/index.css" rel="stylesheet")
+        //JavaScript
+        script(src="js/index.js")
+    body
+        include ../sub/menu
+        section.hero.is-fullheight#header
+            .hero-body
+                .container.has-text-centered
+                    p.title.is-spaced.has-text-white(style={'font-size':'4rem'}) 中華民國鳳山高中校友會
+                    p.subtitle.has-text-white(style={'font-size':'3rem'}) 歡迎蒞臨
+        section.hero.is-fullheight-with-navbar.is-white#about
+            .hero-body
+                .container
+                    .columns.is-vcentered
+                        .column.is-two-fifths
+                            img.image(src="img/fssh_logo.gif" style={'margin':'auto'})
+                        .column.is-three-fifths.has-text-centered
+                            p.title 認識鳳中校友會
+                            p.content
+                            | 過去多年來，鳳山高中校友會在張雅玲董事長的帶領下，延續鳳中「榮譽、勤勞、誠實」校訓，為校友們情感的聯繫建立了穩固基礎。但為進一步符合內政部全國性人民團體法規，「中華民國鳳山高中校友會」在民國105年，正式申請並通過內政部全國性人民團體立案，正式成為合法人民團體組織。未來在服務鳳中校友、師長及同學們，都能夠在此制度架構下持續的推動。
+                            p.subtitle(style={'margin-top':'15px'}) 創會時間：民國105年7月23日
+        section.hero.is-fullheight-with-navbar.is-light#chairman
+            .hero-body
+                .container
+                    .columns.is-vcentered
+                        .column.is-half
+                            .columns.is-centered
+                                p.title 現任理事長&nbsp;&nbsp;&nbsp;張萬邦
+                            .columns.is-centered
+                                .content.is-medium
+                                    ul
+                                        li 鳳中校友會第三屆理事長
+                                        li 民國00年高中部畢業
+                                        li 00學年度鳳中第0屆傑出校友
+                                        li 現職：
+                        .column.is-half
+                            img.image.is-rounded(src="img/default_man.png" style={'margin':'auto'} width=400)
+        section.hero.is-fullheight-with-navbar.is-white#staff
+            .hero-body
+                .container
+                    p.title.has-text-centered 工作團隊
+                    img.image(src="img/team.png" width=650 style={'margin':'auto'})
