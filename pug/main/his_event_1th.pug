@@ -1,0 +1,68 @@
+doctype
+html(lang="zh-Hant-TW")
+    head
+        //General
+        include ../sub/general
+        //CSS
+        link(href="css/bulma-timeline.min.css" rel="stylesheet")
+        link(href="css/his_event.css" rel="stylesheet")
+    body
+        include ../sub/menu
+        section.hero.is-info.is-hero-with-navbar#his_event_1th
+            .hero-body
+                .container.has-text-centered
+                    p.title.is-2.has-text-white 第一屆大事紀
+        section(style={'margin-top':'2rem'})
+            .container
+                .columns
+                    .column
+                        .timeline.is-centered
+                            header.timeline-header
+                                span.tag.is-large.is-primary 2018
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    p.heading.m-heading 24 MAR 2018
+                                    p
+                                        li 辦理本屆第 3 次會員大會暨第 7 次理監事聯席會。
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    p.heading.m-heading 22 FEB 2018
+                                    p
+                                        li 辦理本屆第 6 次理監事聯席會。
+                            header.timeline-header
+                                span.tag.is-large.is-primary 2017
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    p.heading.m-heading 20 DEC 2017
+                                    p
+                                        li 辦理本屆第 5 次理監事聯席會。
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    p.heading.m-heading 20 JUL 2017
+                                    p
+                                        li 辦理本屆第 4 次理監事聯席會。
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    p.heading.m-heading 25 MAR 2017
+                                    p
+                                        li 辦理本屆第 2 次會員大會暨第 3 次理監事聯席會。
+                            header.timeline-header
+                                span.tag.is-large.is-primary 2016
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    p.heading.m-heading 6 OCT 2016
+                                    p
+                                        li 辦理本屆第 2 次理監事聯席會。
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    p.heading.m-heading 23 JUL 2016
+                                    p
+                                        li 辦理本屆會員成立大會暨第 1 次理監事聯席會，選出本屆理事長，由龔皇光校友當選理事長。
+        include ../sub/footer
