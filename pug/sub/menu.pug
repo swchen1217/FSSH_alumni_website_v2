@@ -24,8 +24,8 @@ nav.navbar.is-primary.is-fixed-top
             .navbar-item.has-dropdown.is-hoverable
                 a.navbar-link 歷屆傑出校友
                 .navbar-dropdown
-                    - for(var i=1;i<=18;i++)
-                      a.navbar-item(href="")= "第"+i+"屆"
+                    - for(var i=17;i>0;i--)
+                      a.navbar-item(href="doc/alumni_list/"+i+"th.pdf")= "第"+i+"屆"
             .navbar-item.has-dropdown.is-hoverable
                 a.navbar-link 歷屆大事紀
                 .navbar-dropdown
@@ -36,12 +36,12 @@ nav.navbar.is-primary.is-fixed-top
                 .navbar-dropdown
                     a.navbar-item(href="") 2019
                     a.navbar-item(href="") 2018
-            a.navbar-link 影音專區
+            a.navbar-item 影音專區
             .navbar-item.has-dropdown.is-hoverable
                 a.navbar-link 文件下載
                 .navbar-dropdown
-                    a.navbar-item(href="") 校友會組織章程
-                    a.navbar-item(href="") 校友會入會申請書
-                    a.navbar-item(href="") 傑出校友選拔表揚辦法
-                    a.navbar-item(href="") 傑出校友推薦表
+                    a.navbar-item(href="doc/downloads/org_regulations.pdf") 校友會組織章程
+                    a.navbar-item(href="doc/downloads/application.doc") 校友會入會申請書
+                    a.navbar-item(href="doc/downloads/praise.pdf") 傑出校友選拔表揚辦法
+                    a.navbar-item(href="doc/downloads/recommendation.doc") 傑出校友推薦表
 //Menu
