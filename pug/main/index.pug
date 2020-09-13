@@ -30,15 +30,14 @@ html(lang="zh-Hant-TW")
                 .container
                     .columns.is-vcentered
                         .column.is-half
-                            .columns.is-centered
-                                p.title 現任理事長&nbsp;&nbsp;&nbsp;張萬邦
-                            .columns.is-centered
-                                .content.is-medium
-                                    ul
-                                        li 鳳中校友會第三屆理事長
-                                        li 民國00年高中部畢業
-                                        li 00學年度鳳中第0屆傑出校友
-                                        li 現職：
+                            p.title 現任理事長&nbsp;&nbsp;&nbsp;張萬邦
+                            .content.is-medium(style={'margin':'0 auto'})
+                                ul
+                                    li 鳳中校友會第三屆理事長
+                                    li 民國00年高中部畢業
+                                    li 00學年度鳳中第0屆傑出校友
+                                    li 現職：
+
                         .column.is-half
                             img.image.is-rounded(src="img/default_man.png" style={'margin':'auto'} width=400)
         section.hero.is-fullheight-with-navbar.is-white#staff
@@ -46,3 +45,4 @@ html(lang="zh-Hant-TW")
                 .container
                     p.title.has-text-centered 工作團隊
                     img.image(src="img/team.png" width=650 style={'margin':'auto'})
+        include ../sub/footer

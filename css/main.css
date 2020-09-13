@@ -1,0 +1,12 @@
+body {
+    background-color: #b6f5f5;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.navbar-dropdown {
+    max-height: 13em;
+    overflow: auto;
+}
+.footer{
+    padding: 24px;
+    background-color: hsl(0, 0%, 21%);
+}
