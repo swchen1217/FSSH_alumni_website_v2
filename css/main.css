@@ -10,3 +10,6 @@ body {
     padding: 24px;
     background-color: hsl(0, 0%, 21%);
 }
+.is-hero-with-navbar{
+    padding-top: 3.25rem;
+}
